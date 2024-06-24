@@ -9,18 +9,11 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    backgroundColor: "",
-    screens: {
-      mobile: "480px",
-      tablet: "768px",
-      laptop: "1280px",
-      desktop: "1400px",
-    },
     container: {
       center: true,
       padding: "2rem",
       screens: {
-        desktop: "1400px",
+        "3xl": "1400px",
       },
     },
     fontFamily: {
